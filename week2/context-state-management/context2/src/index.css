@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #f99e9e , #f3ebe9, #fbfbfd);
+    font-family: 'Merienda', cursive;
+}
+  
+#navbar {
+    list-style: none;
+    text-align: center;
+    margin: 1%;
+}
+
+#navbar li {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+#navbar li:hover {
+    cursor: pointer;
+    box-shadow: 3px black;
+    font-weight:900;
+}
+
+#showInput {
+    text-align: center;
+    padding: 8px;
+}
+
+#showName {
+    width: 25%;
+}
+
+.formInput {
+    padding: 4px;
+    margin: 3px;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+}
+.formInput:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px black;
+    font-weight: bold;
+}
+
+#main h1 {
+    text-align: center;
+    padding: 1%;
+    margin: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+#showList {
+    padding: 15px;
+    margin: 20px;
+}
+
+.showName {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    list-style-type: none;
+}
