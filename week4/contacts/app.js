@@ -24,7 +24,6 @@ function removeContact(contact) {
 const initialState = {
     count: 0,
     allContacts: [],
-    
 }
 
 function reducer(state = initialState, action) {
@@ -44,8 +43,7 @@ function reducer(state = initialState, action) {
             return {
                 ...state,
                 allContacts: updatedArr
-            }
-        
+            }    
     }
 }
 
@@ -59,14 +57,17 @@ store.dispatch(addContact({
     phone: "808-505-2002", 
     email: "darthvader@starwars.com"
 }))
+
 store.dispatch(addContact({
     name: "Han Solo", 
-    phone: "202-404-7007", 
+    phone: "808-404-7007", 
     email: "hansolo@starwars.com"
 }))
+
 store.dispatch(addContact({
-    name: "Princess Leia", 
-    phone: "101-303-8008", 
-    email: "princessleia@starwars.com"
+    name: "Luke Skywalker", 
+    phone: "808-303-8008", 
+    email: "lukeskywalker@starwars.com"
 }))
+
 store.dispatch(removeContact("Darth Vader"))
