@@ -8,11 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 2%;
-}
 h2 {
   font-size: 18px;
   text-align: center;
@@ -22,14 +17,17 @@ h2 {
   font-size: 45px;
   text-align: center;
 }
+.title2 {
+  font-size: 25px;
+}
 
-Form {
+.title3 {
+  font-size: 35px;
   text-align: center;
 }
 
-.inputText {
-  font-family: 'Crimson Text', serif;
-  font-size: 14px;
+Form {
+  text-align: center;
 }
 
 button {
@@ -40,17 +38,24 @@ button {
   color: whitesmoke;
   display: block;
   margin: 0 auto;
+  margin-top: 1%;
 }
 
 button:hover {
   box-shadow: 4px 6px 8px #323232 ;
 }
 
-.button {
-  display: block;
-  margin: 0 auto;
-}
-
 input {
   width: 250px;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+}
+
+.card {
+  border: 4px double black;
+  width: 450px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1%;
 }
