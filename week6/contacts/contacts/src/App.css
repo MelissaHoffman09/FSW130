@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #c76e52;
+  font-family: 'Crimson Text', serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 2%;
+}
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+  text-align: center;
+}
+
+Form {
+  text-align: center;
+}
+
+.inputText {
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+}
+
+button {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+  padding: 6px 10px;
+  background-color: black;
+  color: whitesmoke;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  box-shadow: 4px 6px 8px #323232 ;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  width: 250px;
+}
