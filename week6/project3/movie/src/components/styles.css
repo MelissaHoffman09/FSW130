@@ -1,0 +1,66 @@
+/*Button */
+button {
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 20px;
+    
+    color:whitesmoke;
+    font-size: 13px;
+}
+
+button:hover {
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+    opacity: 1.0;
+    }
+
+button {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+   
+}
+/* Card */
+.cardBox {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    opacity: 0.9;
+    padding: 35px 10px;
+    border-radius: 10px;
+    box-shadow: 6px 8px rgba(0,0,0,0.4);
+    margin: 10px 10px;
+}
+/*Container*/
+.container {
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+}}
+
+@media (min-width: 768px){
+    .container {
+    max-width: 720px;
+}}
+
+@media (min-width: 992px){
+    .container {
+    max-width: 960px;
+}}
+
+@media (min-width: 1200px){
+    .container {
+    max-width: 1040px;
+}}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+

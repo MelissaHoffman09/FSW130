@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+html, body {
+  font-family: 'Shadows Into Light Two', cursive;
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1 {
+  font-size: 40px;
+  color: #F5F7FA;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.24);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #323232;
+}
+
+.backBox {
+  background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  opacity: 0.8;
+}
+
+.inputForm {
+  background-color: #E4E4E1;
+  background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+  opacity: 0.95;
+  padding: 32px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  box-shadow: 6px 8px rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputForm > input {
+  padding: 14px 24px;
+  border: none;
+}
+
+.background {
+  min-height: 100vh;
+  background-color: #ed6ea0;
+  background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  display: flex;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 250px;
+  margin: 0 15px;
+  border-radius: 30px;
+  box-shadow: 6px 8px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.select:hover {
+  min-width: 280px;
+  min-height: 280px;
+  font-size: 28px;
+  box-shadow: 6px 8px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
