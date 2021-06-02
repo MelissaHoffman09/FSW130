@@ -17,7 +17,7 @@ const Todos = () => {
         <div className="background">
 
         <Container>
-            <h1>Todo List</h1>
+            <h1>To-do List</h1>
             <h3 className='back'><Link to="/">Go Back</Link></h3>
             <div></div>
             <form className="inputForm"
@@ -26,7 +26,7 @@ const Todos = () => {
                 dispatch(addTodo(formField));
                 setFormField('');
             }}>
-                <input type="text" onChange={e => {setFormField(e.target.value)}} value={formField} placeholder="Todo Task"/>
+                <input type="text" onChange={e => {setFormField(e.target.value)}} value={formField} placeholder="To-do Task"/>
                 <Button>Submit</Button>
             </form>
             <div className="grid">
